@@ -17,6 +17,7 @@ I regret the delay this will cause in your publication schedule. I will complete
 Thank you for your consideration. I sincerely regret the delay.
 
 Best Regards.
+
 Avinash Kumar
 
 
