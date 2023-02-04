@@ -81,10 +81,3 @@ If you want to contact me, you can reach me through below handles.
 [![linkedin](https://img.shields.io/badge/Avinash-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/avinashdeveloper/)
 
 # Thank You :sparkling_heart:
-![nQ0aQMz](https://user-images.githubusercontent.com/96098283/216769538-ff19b662-a74c-441a-a788-af949201d91e.jpeg)
-
-![web engage](https://user-images.githubusercontent.com/96098283/216769543-2867a2aa-79ab-49ef-9622-0ace9eb85195.png)
-
-
-![Screenshot (47)](https://user-images.githubusercontent.com/96098283/216769546-6b2e34a5-9583-437a-be60-cc057d756015.png)
-
