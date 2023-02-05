@@ -7,7 +7,7 @@
 <h3 align="center" > Want to see live preview >><h3>
 <p align="center">
 <br />
-<a target="blank" href="https://apna-e-mart-avinashkumarkml.vercel.app/">Deployed Link</a>
+<a target="blank" href="https://web-engage-umber.vercel.app/">Deployed Link</a>
 </p>
 
 <br />
@@ -57,20 +57,13 @@ All the data got stored in and called from <b>Local Stroge</b>.
 - User validation.
   
   ## Some Snapshots
-<p>Landing page</p>
-<img src="https://miro.medium.com/max/1100/1*aZVr-cnkql_TFRsAPWqpqw.webp"/>
+![Screenshot (82)](https://user-images.githubusercontent.com/96098283/216817656-85dbc9d9-7090-452f-8f0c-716661edcf1c.png)
 
-<p>Product page</p>
-<img src="https://miro.medium.com/max/1100/1*XG7gKJMkkGVehBm3_C8ZXw.webp"/>
+![Screenshot (83)](https://user-images.githubusercontent.com/96098283/216817680-54db2aa0-6e7e-4140-b8c3-8688a700d74a.png)
 
-<p>The cart page</p>
-<img src="https://miro.medium.com/max/1100/1*y8DNYFJTOFvl_CAUGWj0uQ.webp"/>
-  
-<p>Sign UP page</p>
-<img src="https://miro.medium.com/max/1100/1*oab-B0KPdYJ_BBsZCchfiA.webp"/>
+![Screenshot (84)](https://user-images.githubusercontent.com/96098283/216817682-b87dcb94-cac1-40eb-9bd3-b0c197822cc1.png)
 
-<p>Sign In page</p>
-<img src="https://miro.medium.com/max/1100/1*_nIVQlgAi_gU-pBk2PVcYA.webp"/>
+![Screenshot (85)](https://user-images.githubusercontent.com/96098283/216817684-ce6c4e16-003b-4338-aae6-55a9d0652d36.png)
   
 ## Please do check out our Web-Engage-Assessment !
 
