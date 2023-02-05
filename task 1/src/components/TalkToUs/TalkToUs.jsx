@@ -6,28 +6,44 @@ const TalkToUs = () => {
   const [countryCode, setCountryCode] = useState([
     {
       logo: "💶",
-      code: "+ 90",
+      code: "+ 91",
     },
     {
-      logo: "",
+      logo: "💶",
       code: "+ 95",
     },
     {
-      logo: "",
+      logo: "💶",
       code: "+ 89",
     },
     {
-      logo: "",
+      logo: "💶",
+      code: "+ 88",
+    },
+    {
+      logo: "💶",
+      code: "+ 90",
+    },
+    {
+      logo: "💶",
+      code: "+ 95",
+    },
+    {
+      logo: "💶",
+      code: "+ 89",
+    },
+    {
+      logo: "💶",
       code: "+ 88",
     },
   ]);
   const [emailError, setEmailError] = useState(false);
   const [mobileError, setMobileError] = useState(false);
-  const [errorMessage,setErrorMessage]=useState("Required Field")
   const navigate = useNavigate();
   const [data, setData] = useState({
     email: "",
     mobile: "",
+    code:"+ 91"
   });
 
   // TAKING INPUT FORM INPUT FIELDS
@@ -42,26 +58,27 @@ const TalkToUs = () => {
 
   // FORM SUBMIT`
   const handleSubmit = () => {
-    if(data.email.length<5||data.mobile.length<10||data.mobile.length<10){
-      alert("Invalid credential please enter valid email or password")
-    }
 
     if (data.email === "") {
       if (data.mobile === "") {
         setMobileError(true);
       }
       setEmailError(true);
-    } else if (data.mobile === "") {
+    } else if (data.mobile === ""){
       if (data.email === "") {
         setEmailError(true);
       }
       setMobileError(true);
-    } else if (emailError === false && mobileError === false) {
+    }else if(data.mobile.length<10){
+      alert("Invalid email or mobile Number")
+    }else if(!data.email.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)){
+      alert("Invalid Email or Mobile Number")
+    }
+     else if (emailError === false && mobileError === false) {
       localStorage.setItem("data", JSON.stringify(data));
       navigate("/thankyou");
     }
   };
-  console.log(data);
 
   return (
     <div className={styles.container}>
@@ -100,15 +117,15 @@ const TalkToUs = () => {
               placeholder="Enter Your Email Address"
             />
             {/* ------------ERROR MESSAGE------------- */}
-            {emailError && <span className={styles.error}>{errorMessage}</span>}
+            {emailError && <span className={styles.error}>Required Field</span>}
           </div>
 
           {/* ---------------MOBILE---------------- */}
           <div style={styles.mobile}>
-            <select name="" id="">
+            <select name="" id="" onChange={(e)=>setData({...data,code:e.target.value})}>
               {countryCode.map((item) => (
                 <option key={uuid()} value={item.code}>
-                  {item.code}
+                  {item.code + " " + item.logo}
                 </option>
               ))}
             </select>
@@ -128,7 +145,7 @@ const TalkToUs = () => {
             />
             {/* ----------ERROR MESSAGE---------- */}
             {mobileError && (
-              <span className={styles.error}>{errorMessage}</span>
+              <span className={styles.error}>Required Field</span>
             )}
           </div>
           <button onClick={handleSubmit}>
