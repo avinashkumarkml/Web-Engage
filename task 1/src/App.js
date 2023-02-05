@@ -1,26 +1,17 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
-import { Form } from "./components/Form";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import TalkToUs from "./components/TalkToUs/TalkToUs";
 import ThankYou from "./components/ThankYou/ThankYou";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <TalkToUs/>
+    element: <TalkToUs />,
   },
   {
     path: "/thankyou",
-    element: <ThankYou/>
+    element: <ThankYou />,
   },
-  {
-    path: "/form",
-    element: <Form/>
-  }
 ]);
 function App() {
   return (
